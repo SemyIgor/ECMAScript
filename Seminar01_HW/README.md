@@ -1,4 +1,4 @@
-# Lesson 10, Seminar 05 HomeWork
+# ECMAScript Seminar 01 HomeWork
 
 В домашнем задании все задачи находятся в одном файле script.js
 Каждая задача оформлена отдельной функцией с именем task<номер задачи>.
