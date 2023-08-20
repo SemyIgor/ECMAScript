@@ -1,0 +1,39 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.wrapper {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+   background-color: darkgray;
+   gap: 20px;
+}
+
+figure {
+   border: thin #c0c0c0 solid;
+   display: flex;
+   flex-flow: column;
+   padding: 5px;
+   /* max-width: calc(220px * 4); */
+   max-width: 360px;
+   height: 700px;
+   margin: auto;
+   background-color: #222;
+   overflow: auto;
+}
+
+img {
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+}
+
+figcaption {
+   background-color: #222;
+   color: #fff;
+   font: italic smaller sans-serif;
+   padding: 3px;
+   text-align: start;
+}

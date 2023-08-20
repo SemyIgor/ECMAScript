@@ -1,0 +1,75 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0;
+}
+
+.wrapper {
+   padding: 50px 10px;
+   background-color: #eee;
+   align-items: center;
+}
+
+.cards {
+   padding-bottom: 50px;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+   /* grid-template-columns: repeat(3, 360px); */
+   gap: 20px;
+}
+
+.users-card {
+   display: flex;
+   flex-flow: column;
+   align-items: start;
+   background-color: darkgray;
+   padding: 10px;
+   min-width: 360px;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 12px;
+}
+
+.btn {
+   margin-top: 20px;
+   padding: 5px 20px;
+   justify-self: end;
+   align-self: center;
+   cursor: pointer;
+}
+
+.refreshDataBtn {
+   display: inline-block;
+   align-self: center;
+   padding: 10px 40px;
+   width: 360px;
+   margin-left: calc(50vw - 180px);
+   columns: 100%;
+   cursor: pointer;
+}
+
+.img-block {
+   width: 100%;
+   height: 100%;
+   /* max-height: 400px; */
+   overflow: hidden;
+   /* background-color: #80ab8d; */
+}
+
+img {
+   /* object-fit: scale-down; */
+   /* object-fit: contain; */
+   object-fit: cover;
+   width: 100%;
+
+}
